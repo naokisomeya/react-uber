@@ -57,6 +57,11 @@ const ItemWrapper = styled.div`
   margin: 16px;
 `;
 
+const submitOrder = () => {
+
+  console.log('登録ボタンが押された！')
+}
+
 export const Foods = ({
   match
 }) => {
