@@ -49,7 +49,9 @@ const OrderButtonTextWrapper = styled.div`
 const PriceWrapper = styled.div`
   padding-top: 4px;
 `;
+// --- ここまで追加 ---
 
+// --- ここから修正 ---
 export const FoodOrderDialog = ({
   food,
   countNumber,
